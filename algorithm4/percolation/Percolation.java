@@ -1,20 +1,3 @@
-/******************************************************************************
- *  Name:    Kevin Wayne
- *  NetID:   wayne
- *  Precept: P01
- *
- *  Partner Name:    N/A
- *  Partner NetID:   N/A
- *  Partner Precept: N/A
- *
- *  Description:  Modeling Percolation using an N-by-N grid and Union-Find data
- *                structures to determine the threshold. woot. woot.
- ******************************************************************************/
-
-import edu.princeton.cs.algs4.StdRandom;
-import edu.princeton.cs.algs4.StdStats;
-import edu.princeton.cs.algs4.WeightedQuickUnionUF;
-
 public class Percolation {
     // create n-by-n grid, with all sites blocked
     public Percolation(int n) {
